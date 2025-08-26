@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript Fundamentals Assignment</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>Assignment Ride</h1>
+		<i>Let's start with: (drums....)</i>
+		<section id="sess_one">
+			<h2>Part 1: Variables & Conditionals</h2>
+			<div id="userInputSection">
+				<label for usernameInput"> Enter your name: </label>
+				<input type="text" id="usernameInput" placeholder="Your name">
+				<button onclick="startSession()"> Start</button>
+			</div>
+			<p id="greeting"></p>
+		</section>
+
+		<section id="sess_two">
+			<h2>Part 2: Functions — Supermarket Cart</h2>
+			<p>Select your items:</p>
+
+			<label><input type="checkbox" class="item" data-price="1000"> Apple (ksh.1000)</label><br>
+			<label><input type="checkbox" class="item" data-price="500"> Bread (Ksh. 500)</label><br>
+			<label><input type="checkbox" class="item" data-price="700"> Cheese (Ksh. 700)</label><br>
+			<label><input type="checkbox" class="item" data-price="1500"> Chicken (Ksh. 1500)</label><br>
+			<label><input type="checkbox" class="item" data-price="750"> Milk (Ksh. 750)</label><br>
+			<label><input type="checkbox" class="item" data-price="30000"> Laptop (Ksh. 30000)</label><br>
+			<label><input type="checkbox" class="item" data-price="1050"> Pork (Ksh. 1050)</label><br>
+			<label><input type="checkbox" class="item" data-price="1200"> Beef (Ksh. 1200)</label><br>
+
+			<button onclick="calculateCartTotal()">Calculate Total</button>
+			<p id="totalResult"></p>
+		</section>
+		<section id="sess_three">
+
+			<h2>Part 3: Loops</h2>
+			<ul id="loopOutput"></ul>
+		</section>
+
+		<section id="sess_four">
+			<h2>Part 4: DOM Manipulation</h2>
+			<button id="toggleButton">Toggle Message</button>
+			<p id="message">Hello, DOM!</p>
+			<button id="addItemButton">Add List Item</button>
+			<ul id="dynamicList"></ul>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
+
