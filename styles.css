@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, label, input, button {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f9f9f9;
+	color: #333;
+	padding: 20px;
+	line-height: 1.6;
+}
+
+h1 {
+	font-size: 2.5em;
+	color: #0bcacc;
+	margin-bottom: 10px;
+}
+
+i {
+	font-size: 1.1em;
+	display: block;
+	margin-bottom: 20px;
+}
+
+section {
+	background-color: #fff;
+	padding: 20px;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+	margin-bottom: 15px;
+	color: #444;
+	border-bottom: 2px solid #007acc;
+	padding-bottom: 5px;
+}
+
+input[type="text"] {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 1em;
+	margin-right: 10px;
+	width: 200px;
+}
+
+button {
+	background-color: brown;
+	color: white;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 6px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: red;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 1em;
+}
+
+#totalResult {
+	margin-top: 15px;
+	font-weight: bold;
+	color: #2a8a0f;
+	font-size: 1.2em;
+}
+
+#greeting {
+	margin-top: 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #007000;
+}
+
+#loopOutput, #dynamicList {
+	margin-top: 10px;
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+#loopOutput li, #dynamicList li {
+	margin-bottom: 5px;
+}
+
+#message {
+	margin-top: 10px;
+	font-style: italic;
+	color: #333;
+}
+
+@media (max-width: 600px) {
+	input[type="text"] {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	button {
+		width: 100%;
+	}
+}
