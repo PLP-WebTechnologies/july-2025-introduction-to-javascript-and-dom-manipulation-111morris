@@ -41,17 +41,17 @@ function calculateCartTotal() {
 }
 
 
-//ses_three
+//sess_three
 for (let i = 1; i <= 5; i++) {
 	const li = document.createElement("li");
 	li.textContent = `Item ${i}`;
 	document.getElementById("loopOutput").appendChild(li);
 }
 let countdown = 3;
+
 while (countdown > 0) {
 	console.log(`Countdown: ${countdown}`);
 	countdown--;
-
 }
 
 
